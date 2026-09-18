@@ -1,4 +1,13 @@
+# OxfordIIITPet ResNet18 宠物分类项目
 
+基于PyTorch + ResNet18迁移学习实现37类宠物品种分类，包含模型训练、混淆矩阵评估、Grad-CAM可解释性可视化全流程。
+
+## 🚀 一键复现
+```bash
+# 1. 安装依赖
+pip install torch torchvision tqdm scikit-learn grad-cam matplotlib
+# 2. 一键运行全流程
+python main.py
 
 ## 📊 实验结果
 - 数据集：OxfordIIITPet 37类猫狗品种
